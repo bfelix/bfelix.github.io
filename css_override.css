@@ -36,7 +36,7 @@
 #header-logo, #header.no-user #header-logo {
   background-image: url("http://s3.amazonaws.com/cbe-branding/acue/acue_cbe-web_primary_logo.png");
   background-repeat: no-repeat;   
-  background-size: auto 90px;  
+  background-size: auto 45px;  
   background-position: 50%;
   background-color: #000;  
 
@@ -49,7 +49,15 @@
 
 /* Relabeling the Grades menu */
 div#header-inner ul#menu li#grades_menu_item {
-visibility: hidden;
+	visibility: hidden;
+}
+div#header-inner ul#menu li#grades_menu_item:after {
+	content: "Progress";
+}
+
+/* Hiding the Calendar menu */
+div#header-inner ul#menu li#calendar_menu_item {
+	visibility: hidden;
 }
 
 
