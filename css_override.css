@@ -18,12 +18,12 @@
 */
 
 
-#header {   
+/*#header {   
   background-color: rgba(40,40,40,0.9);
 }
 .menu-item .menu-item-title, .menu-item .menu-item-no-drop {
   color: #ffffff;
-}
+}*/
 
 /* 
 ///
@@ -36,7 +36,7 @@
 #header-logo, #header.no-user #header-logo {
   background-image: url("http://s3.amazonaws.com/cbe-branding/acue/acue_cbe-web_primary_logo.png");
   background-repeat: no-repeat;   
-  background-size: auto 45px;  
+  background-size: auto 40px;  
   background-position: 50%;
   background-color: #000;  
 
@@ -52,7 +52,10 @@ div#header-inner ul#menu li#grades_menu_item {
 	visibility: hidden;
 }
 div#header-inner ul#menu li#grades_menu_item:after {
-	content: "Progress";
+	content:'Progress';
+	visibility: visible;
+	display: block;
+	position: absolute;
 }
 
 /* Hiding the Calendar menu */
